@@ -1,0 +1,39 @@
+.sectionOne {
+  padding: 15px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f8ff;
+  height: 80vh;
+  z-index: 700 !important;
+}
+.descriptionBox {
+  width: 511px;
+  height: 318px;
+  top: 182px;
+  left: 111px;
+  text-align: left;
+}
+.signUpButton {
+  background-color: white;
+  color: black;
+  border: 2px solid pink; /* Added a black border */
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.boxArt {
+  z-index: 90;
+  position: absolute;
+  right: 9%;
+  top: 19%;
+  height: 250px;
+  width: 150px;
+  z-index: 90;
+}
+.box {
+  height: 500px;
+  width: 700px;
+  position: relative;
+  z-index: 100;
+}

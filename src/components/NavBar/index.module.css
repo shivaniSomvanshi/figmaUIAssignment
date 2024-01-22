@@ -1,0 +1,37 @@
+/* Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: white;
+  color: #000000;
+  font-size: 12px;
+  height: 30px;
+}
+
+.logo img {
+  width: 221px;
+  height: 56px;
+  top: 27px;
+  left: 111px;
+}
+
+.navLinks {
+  display: flex;
+}
+
+.navLinks a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.loginButton {
+  background-color: white;
+  color: black;
+  border: 2px solid black; /* Added a black border */
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
